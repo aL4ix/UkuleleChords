@@ -26,6 +26,8 @@ def get_chord_type(chord):
     chord_type = []
     if '7' in chord:
         chord_type.append('Seventh')
+    elif '6' in chord:
+        chord_type.append('Sixth')
     if '#' in chord or 'b' in chord:
         chord_type.append('Accidental')
     if not chord_type:

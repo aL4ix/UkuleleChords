@@ -1,8 +1,8 @@
 # UkuleleChords
 
-This repo contains Ukulele chord generation using the fretboard library
+This repo contains Ukulele chord generation using the fretboard library.
 It generate the fretboards with finger positions and tags by chord type and "notes" to generate an Anki deck https://ankiweb.net/shared/info/47647706.
-So far it only contains major, minor, 7, maj7 and m7 chords, no sharps or flats yet but, in the near future I will add more as I learn them.
+So far it contains major, minor, 7th, maj7 and m7, 6th chords (thanks @untypedjay), and accidentals, in the future I might add more as I learn them.
 If you want to contribute, let me know :)
 
 I created this Anki deck since I'm learning Ukulele and kept forgetting the chords. I didn't see any deck that showed finger positions and had tags to allow me to filter the chords (I'm not interested in learning all chords yet, I'm a beginner yet!).

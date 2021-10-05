@@ -23,10 +23,14 @@ def main():
 
 
 def get_chord_type(chord):
-    chord_type = 'Basic'
+    chord_type = []
     if '7' in chord:
-        chord_type = 'Seventh'
-    return chord_type
+        chord_type.append('Seventh')
+    if '#' in chord or 'b' in chord:
+        chord_type.append('Accidental')
+    if not chord_type:
+        chord_type.append('Basic')
+    return ','.join(chord_type)
 
 
 if __name__ == '__main__':
